@@ -7,6 +7,7 @@
 
 #include <Eigen/Dense>
 #include <fmt/format.h>
+#include <mpix/mpix.hpp>
 
 constexpr auto deg_to_rad(auto d)
     requires std::is_arithmetic_v<decltype(d)>

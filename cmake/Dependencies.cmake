@@ -19,6 +19,11 @@ if(eigen_ADDED)
     add_library(Eigen3::Eigen ALIAS eigen_headers)
 endif()
 
+# mpix
+CPMAddPackage(
+    URI "gh:IshrakAbedin/mpix@0.1.1"
+    GIT_SHALLOW TRUE
+)
 
 # Catch2
 if(BUILD_TESTING)

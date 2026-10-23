@@ -9,4 +9,5 @@ target_include_directories(core PUBLIC
 target_link_libraries(core PUBLIC
     Eigen3::Eigen
     fmt::fmt
+    mpix::mpix
 )
