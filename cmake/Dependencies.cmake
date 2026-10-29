@@ -21,7 +21,7 @@ endif()
 
 # mpix
 CPMAddPackage(
-    URI "gh:IshrakAbedin/mpix@0.1.1"
+    URI "gh:IshrakAbedin/mpix@0.1.2"
     GIT_SHALLOW TRUE
 )
 
